@@ -75,6 +75,31 @@
   transition: 0.3s !important;
 }
 
+.selenium-button.selenium-white{
+  color: #4EB436 !important;
+  border-color: #4EB436 !important;
+  border-width: 3px !important;
+  transition: 0.3s !important;
+}
+
+.selenium-button.selenium-white:hover{
+  color: $white !important;
+  background-color: #4EB436 !important;
+}
+.selenium-button.selenium-black {
+  color: $black !important;
+  border-color: $black !important;
+  border-width: 3px !important;
+  transition: 0.3s !important;
+}
+
+.selenium-button.selenium-black:hover {
+  color: $black !important;
+  background-color: $white !important;
+  
+}
+
+
 .selenium-button.selenium-white-cyan:hover {
   color: $selenium-cyan-color !important;
   background-color: $white !important;
